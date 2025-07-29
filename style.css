@@ -25,6 +25,7 @@ h1 {
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 input {

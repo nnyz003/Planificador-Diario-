@@ -1,0 +1,99 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/stardust.png'), #ffeef8;
+  background-size: cover;
+  color: #333;
+  transition: 0.3s;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: rgba(255, 245, 250, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #f8b4e4;
+  text-align: center;
+}
+
+h1 {
+  color: #e26cb4;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #f49ac1;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e26cb4;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #ffe0f0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  transition: 0.3s;
+}
+
+li.completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li:hover {
+  background: #fdd0e8;
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  background: url('https://www.transparenttextures.com/patterns/stardust.png'), #1a1a2e;
+  color: #fff;
+}
+
+body.dark-mode .container {
+  background: rgba(50, 20, 60, 0.8);
+  box-shadow: 0 0 15px #aa66c6;
+}
+
+body.dark-mode li {
+  background: #522b4b;
+}
+
+body.dark-mode li:hover {
+  background: #6d3d64;
+}
+
+body.dark-mode button {
+  background: #aa66c6;
+}
+
+body.dark-mode button:hover {
+  background: #9745a8;
+}
